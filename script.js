@@ -110,7 +110,7 @@ function showSizeChart(productName) {
 // Order via WhatsApp
 function orderWhatsApp() {
     const phoneNumber = '6283821717753'; // Nomor WhatsApp yang diminta
-    const message = `KAK MAU ORDER nama artikel : ${currentProduct}, Size : , Payment:`;
+    const message = `Hallo Min mau order baju  : ${currentProduct}, Size : , Payment:`;
     const encodedMessage = encodeURIComponent(message);
     const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
     
